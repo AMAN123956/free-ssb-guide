@@ -1,0 +1,236 @@
+body{
+    box-sizing:border-box;
+}
+* {
+    box-sizing: border-box;
+  }
+  body{
+    font-family: 'Merienda One', cursive;
+  }
+  .card-body{
+    font-family: 'Merriweather', serif;
+  }
+  .help-content{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+    padding-top:10px; 
+    box-shadow:0px 6px 8px 0px #5e81cf;
+  }
+  
+  @media screen and (min-width:768px) {
+    h1{
+        text-align:center;font-size:3.4rem;
+    }  
+    .first-arrow{
+         color:gray;
+         transform: rotateZ(90deg);
+        
+       }
+       .third-arrow{
+         color:gray;
+        transform: rotateZ(90deg);
+        
+       }
+
+  
+      .accordion {
+        border-left: 4px dotted #5e81cf;
+        width: 50%;
+        margin-left: 3%;
+        margin-right: auto;
+        margin-top: 20px;
+        float:left;
+      }
+  
+      #search-box {
+        width: 60%;
+      }
+  
+      .navbar {
+        background: white;
+        padding-top: 10px;
+        padding-bottom: 5px;
+        font-family: 'Merriweather', serif;
+      }
+  
+      #mobile {
+        display: none;
+      }
+      .carousel-img{
+        display:block;
+        margin-left:auto;
+        margin-right:auto;
+        width:35%;
+        height:500px
+      }
+      .two{
+        display:none;
+      }
+      #about{
+        margin-top:40px;
+        text-align:center;
+        font-size:3.4rem;
+        text-decoration: underline;
+      }
+      #about-para{
+        margin-top:10px;
+        text-align:left;
+        font-size:1.6rem;
+        color:red;
+        padding:20px 60px;
+        font-family: 'Merriweather', serif;
+      }
+      #about-ssb-img{
+        margin-right:100px;
+        margin-top:100px;
+        margin-bottom:40px;
+        width:28%;
+        float:right;
+        box-shadow:0px 6px 8px 0px #5e81cf;
+      }
+      #help-text-heading{
+        text-align: center;color:#5e81cf;font-size:3.3rem;
+      }
+    }
+  
+    @media screen and (max-width:768px) {
+  
+      #search-box {
+        display: none;
+      }
+  
+      #desktop {
+        display: none;
+      }
+  
+      #mobile {
+        display: block;
+      }    
+      h1{
+          font-size:2rem;
+          text-align:center;
+      }
+      .carousel-img{
+        display:block;
+        margin-left:auto;
+        margin-right:auto;
+        width:50%;
+        height:400px
+      }
+      .two{
+        display:none;
+      }
+      .first-arrow{
+         color:gray;
+         transform: rotateZ(90deg);
+        
+       }
+       .third-arrow{
+         color:gray;
+        transform: rotateZ(90deg);
+        
+       }
+  
+      .accordion {
+        border-left: 4px dotted #5e81cf;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 40px;
+      }
+      #about{
+        margin-top:40px;
+        text-align:center;
+        font-size:2.4rem;
+        text-decoration: underline;
+      }
+      #about-para{
+        margin-top:10px;
+        text-align:left;
+        font-size:1.6rem;
+        color:red;
+        padding:20px 10px;
+        font-family: 'Merriweather', serif;
+      }
+      #about-ssb-img{
+        margin-top:40px;
+        width:92%;
+        margin-left:4%;
+        margin-right:4%;
+        box-shadow:0px 6px 8px 0px #5e81cf;
+        
+      }
+      #help-text-heading{
+        text-align: center;
+        color:#5e81cf;
+        font-size:2.3rem;
+      }
+  
+    }
+    
+    /* Accordion Content -*/
+    .how-to-join{
+      text-align:center;
+      padding:0px 10px;
+      margin-left:auto;
+      font-size:1.3rem;
+      background: white;
+      color:#5e81cf;
+    }
+    .center-box{
+      margin-top:6%;
+      width:200px;
+      padding:5px;
+      font-size:1.2rem;
+      margin-left:auto;
+      margin-right:auto;
+      color:black;
+      text-align:center;
+      background: white;
+    }
+    /* Diagram Layout */
+    /* Army */
+    .diagram{
+      display:flex;
+      margin-top:40px;
+      align-items:center;
+      justify-content:center;
+     }
+
+     /* Air Force Data */
+     .air-force-data{
+       margin-top:40px;
+     }
+     .air-data{
+       display:flex;
+       align-items:center;
+       justify-content:center;
+       width:100%;
+       background:white;
+      }
+      
+      hr { display: block; height: 1px;
+        border: 0; border-top: 4px solid #ffffff;
+        margin: 1em 0; padding: 0; }
+
+      /* Navy Data */
+      .navy-data p{
+        margin-left:3%;
+      }
+    /* First Row of Content */
+
+    @media screen and (max-width:768px){
+      .diagram{
+        
+      }
+      .diagram img{
+        width:100%;
+        margin:10px auto;
+      }
+      .air-data img{
+        width:100%;
+        margin-left:auto;
+        margin-right:auto;
+      }
+    }
